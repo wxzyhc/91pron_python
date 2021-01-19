@@ -14,6 +14,8 @@
 
 **爬取91的教程链接：[点这里](https://www.javbus.com/forum/forum.php?mod=viewthread&tid=75293)**  
 
+**也可以加入telegram群组进行沟通  https://t.me/pythonreptile （QQ群已经不用了。）**
+
 
 # 使用方法
 * 首先需要安装python最新版，这里不再教学，网上有很多
