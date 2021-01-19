@@ -62,12 +62,12 @@ def get_info(site,titles,links):
 # Registration Code: XLEVD-PNASB-6A3BD-Z72GJ-SPAH7
 
 def download_img(title, link):
-    if os.path.exists(title):
-        return
     nomakechar =  [":","/","\\","?","*","“","<",">","|"]
     for item in nomakechar:
         if title.find(item)>-1:
             title = title.replace(item, '')
+    if os.path.exists(title):
+		return
     os.makedirs(title)
     re = s.get(link, headers=header)
     re.encoding = 'gbk'
