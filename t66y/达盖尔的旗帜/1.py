@@ -67,7 +67,7 @@ def download_img(title, link):
         if title.find(item)>-1:
             title = title.replace(item, '')
     if os.path.exists(title):
-		return
+	return
     os.makedirs(title)
     re = s.get(link, headers=header)
     re.encoding = 'gbk'
