@@ -14,7 +14,6 @@
 
 **爬取91的教程链接：[点这里](https://www.javbus.com/forum/forum.php?mod=viewthread&tid=75293)**  
 
-**也可以可以加群进行交流，群号：1042783658**
 
 # 使用方法
 * 首先需要安装python最新版，这里不再教学，网上有很多
