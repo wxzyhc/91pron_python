@@ -31,6 +31,10 @@ def get_info(site, titles, links):
 
 
 def download_img(title, link):
+    nomakechar =  [":","/","\\","?","*","“","<",">","|"]
+    for item in nomakechar:
+        if title.find(item)>-1:
+            title = title.replace(item, '')
     if os.path.exists(title):
         return
     os.makedirs(title)
